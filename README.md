@@ -14,3 +14,7 @@ So I should add classes:
 
 with the right values.
 After that I modify config.php ( as shown in the tests... if you are a moodler, you must know what I'm talking about :D )
+
+Dont forget to **call cron** for each instance with:
+- wget -q -O /dev/nullhttp://moodle.dev/instance1/admin/cron.php
+- wget -q -O /dev/null http://moodle.dev/instance2/admin/cron.php
